@@ -61,7 +61,7 @@ class Notepad:
        self._root.destroy()
 
    def about(self):
-      showinfo("About Notepad","This is a prototype of a Notepad. \nFor any quarry email us:dasrajdip78754282@gmail.com")
+      showinfo("About Notepad","This is a prototype of a Notepad. \nFor any quarry email us:patilkevi6225@gmail.com")
 
    def open(self):
       self.file = askopenfilename(defaultextension=".txt", filetypes=[("All Files","*.*"),("Text Documents","*.txt")])
